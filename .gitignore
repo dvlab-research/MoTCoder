@@ -1,0 +1,11 @@
+__pycache__
+*.egg-info
+workspace
+temp*
+data
+output
+pretrained
+scripts
+results
+models
+*.tar.gz
