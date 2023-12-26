@@ -4,7 +4,7 @@ This is the official code repository of MoTCoder: Elevating Large Language Model
 
 ## Abstract
 Large Language Models (LLMs) have showcased impressive capabilities in handling straightforward programming tasks. However, their performance tends to falter when confronted with more challenging programming problems. We observe that conventional models often generate solutions as monolithic code blocks, restricting their effectiveness in tackling intricate questions. To overcome this limitation, we present Modular-of-Thought Coder (MoTCoder). We introduce a pioneering framework for MoT instruction tuning, designed to promote the decomposition of tasks into logical sub-tasks and sub-modules. 
-Our investigations reveal that, through the cultivation and utilization of sub-modules, MoTCoder significantly improves both the modularity and correctness of the generated solutions,  leading to substantial relative \emph{pass@1} improvements of 12.9% on APPS and 9.43% on CodeContests.
+Our investigations reveal that, through the cultivation and utilization of sub-modules, MoTCoder significantly improves both the modularity and correctness of the generated solutions, leading to substantial relative *pass@1* improvements of 12.9% on APPS and 9.43% on CodeContests.
 
 ![MoTCoder Framework](./imgs/framework.png)
 
@@ -128,7 +128,7 @@ python src/generate_MoT_dataset.py \
     --api_key $api_key
 ```
 
-## Modular-of-Thought Training
+### Modular-of-Thought Training
 Run the following command to train the model 
 ```bash 
 deepspeed src/train.py \
