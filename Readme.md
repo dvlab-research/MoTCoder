@@ -1,7 +1,5 @@
 # MoTCoder: Elevating Large Language Models with Modular of Thought for Challenging Programming Tasks
 
-This is the official code repository of [MoTCoder: Elevating Large Language Models with Modular of Thought for Challenging Programming Tasks](https://arxiv.org/abs/2312.15960).
-
 <p align="center">
 🤗 <a href="https://huggingface.co/JingyaoLi/MoTCoder-15B-v1.0" target="_blank">Model </a> •🐱 <a href="https://github.com/dvlab-research/MoTCoder" target="_blank">Code</a> • 📃 <a href="https://arxiv.org/abs/2312.15960" target="_blank">Paper</a> <br>
 </p>
@@ -130,6 +128,13 @@ python src/generate_MoT_dataset.py \
     --save_path $MoT_data_path \
     --api_base $api_base \
     --api_key $api_key
+```
+
+### MoTCode Dataset
+Or, you can download our generated modular-of-thought code dataset.
+```python
+from datasets import load_dataset
+load_dataset("JingyaoLi/MoTCode-Data")
 ```
 
 ### Modular-of-Thought Training
