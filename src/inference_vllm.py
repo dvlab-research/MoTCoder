@@ -73,7 +73,7 @@ def test(
             generated_text = output.outputs[0].text
             output_data.write({
                 "id": one_data["id"],
-                "question": prompts,
+                "question": prompt,
                 'output': generated_text,
                 'difficulty': one_data["difficulty"],
             })
