@@ -6,7 +6,7 @@
 
 [![PWC](https://img.shields.io/endpoint?url=https%3A%2F%2Fpaperswithcode.com%2Fbadge%2Fmotcoder-elevating-large-language-models-with%2Fcode-generation-on-apps%3Fmetric%3DIntroductory%2520Pass%25401)](https://paperswithcode.com/sota/code-generation-on-apps?metric=Introductory%20Pass%401/motcoder-elevating-large-language-models-with) 
 [![PWC](https://img.shields.io/endpoint?url=https%3A%2F%2Fpaperswithcode.com%2Fbadge%2Fmotcoder-elevating-large-language-models-with%2Fcode-generation-on-codecontests%3Fmetric%3DTest%2520Set%2520pass%25401)](https://paperswithcode.com/sota/code-generation-on-codecontests?metric=Test%20Set%20pass%401)
-https://paperswithcode.com/paper
+
 Large Language Models (LLMs) have showcased impressive capabilities in handling straightforward programming tasks. However, their performance tends to falter when confronted with more challenging programming problems. We observe that conventional models often generate solutions as monolithic code blocks, restricting their effectiveness in tackling intricate questions. To overcome this limitation, we present Modular-of-Thought Coder (MoTCoder). We introduce a pioneering framework for MoT instruction tuning, designed to promote the decomposition of tasks into logical sub-tasks and sub-modules. 
 Our investigations reveal that, through the cultivation and utilization of sub-modules, MoTCoder significantly improves both the modularity and correctness of the generated solutions, leading to substantial relative *pass@1* improvements of 12.9% on APPS and 9.43% on CodeContests.
 
