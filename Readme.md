@@ -68,6 +68,23 @@ You can download our MoTCoder for evaluation from [huggingface](https://huggingf
 - If you want to use normal inference prompt, set `prompt_type=NORMAL_FORMAT_PROMPT`.
 
 First generate the solutions for you targeted evaluation dataset.
+**Choice 1: VLLM (Recommended)**
+To install the requreiments:
+```bash
+pip install vllm
+```
+
+Inference:
+```bash
+python src/inference_vllm.py \
+    --model_path $model_path \
+    --data_path $data_path \
+    --solution_path $solution_path \
+    --prompt_type $prompt_type
+```
+
+**Choice 2: transformers**
+Inference:
 ```bash
 python src/inference.py \
     $model_path \
@@ -75,7 +92,6 @@ python src/inference.py \
     $solution_path \
     $prompt_type
 ```
-
 ### APPs Evaluation
 For APPs evaluation, choices of $level$ include $introductory, interview, competition$.
 ```bash
