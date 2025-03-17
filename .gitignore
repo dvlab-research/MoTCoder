@@ -1,11 +1,10 @@
-__pycache__
-*.egg-info
-workspace
-temp*
-data
-output
-pretrained
-scripts
-results
 models
-*.tar.gz
+data/
+hf/
+output/
+results/
+__pycache__/
+# eval/API-Utils/scripts/mot/
+# eval/API-Utils/scripts/clean/
+eval/API-Utils
+/dataset/
