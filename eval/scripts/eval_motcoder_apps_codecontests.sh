@@ -4,8 +4,6 @@
 model_list=(
     models/MoTCoder-7B-v1.5
 )
-cd /mnt/nas-alinlp/ljy/MoTCoder/
-
 echo "$model_id/results/chat-template-queries.jsonl"
 
 for model_id in "${model_list[@]}"; do
